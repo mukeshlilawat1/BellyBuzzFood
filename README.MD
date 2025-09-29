@@ -1,57 +1,84 @@
-# BellyBuzzFood App 🍔🍕🥗
+# 🍔 BellyBuzzFood App
 
-**BellyBuzzFood** is a modern, full-stack food delivery application built collaboratively. It allows users to browse restaurants, view menus, place orders, and manage their profiles seamlessly. This project is developed by multiple contributors working together to create a robust and scalable application.
+![Stars](https://img.shields.io/github/stars/<your-username>/BellyBuzzFood.svg?style=social)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![React](https://img.shields.io/badge/Frontend-ReactJS-blue)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-blue)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
+---
+
+## ✨ Overview
+
+**BellyBuzzFood** is a **modern full-stack food delivery application** built collaboratively.  
+It allows users to browse restaurants, view menus, add items to the cart, place orders, and manage their profiles seamlessly.  
+
+This project demonstrates real-world skills in:
+
+- Full-stack development (React + Node.js/Express)  
+- RESTful API design and integration  
+- JWT-based user authentication and authorization  
+- Responsive UI for mobile and web  
+- Collaborative development using Git and GitHub
+- Cloud-ready architecture and deployment strategies
+
+> _Perfect for learning and demonstrating full-stack development capabilities._
 
 ---
 
 ## 🚀 Features
 
-- Browse restaurants and menus  
-- Add items to cart and place orders  
-- User authentication (Sign Up / Login)  
-- Profile management and order history  
-- Real-time order updates (optional with notifications)  
-- Responsive design for web and mobile devices  
+- Browse restaurants with detailed menus  
+- Add items to cart and place orders in real-time  
+- User authentication (Sign Up / Login) with JWT  
+- Profile management and order history tracking  
+- Real-time order status updates (optional notifications)  
 - Admin panel for managing restaurants, menus, and orders  
+- Responsive and modern design using Tailwind CSS  
+- Seamless collaboration for multiple contributors
+- Multi-database support (MongoDB / MySQL)
 
 ---
 
-## 🛠 Technology Stack
+## 🧩 Tech Stack
 
-- **Frontend:** React.js, Tailwind CSS, Headless UI, GSAP  
-- **Backend:** Node.js, Express.js (or your chosen backend tech)  
-- **Database:** MongoDB / MySQL  
-- **Version Control:** Git & GitHub  
-- **Other Tools:** Postman for API testing, Vite for React project bundling  
+| Frontend   | Backend        | Database | Auth  | Tools / Libraries       |
+|------------|---------------|----------|-------|------------------------|
+| React.js   | Node.js        | MongoDB  | JWT   | Git, GitHub, Postman   |
+| Tailwind   | Express.js     |          |       | Vite, Lodash, Axios    |
+| HeadlessUI |                |          |       | React Router, Redux    |
 
 ---
 
-## 📂 Project Structure
+## 🗺️ Project Structure
 
 ```
 BellyBuzzFood/
 │
-├── frontend/                    # React.js frontend code
+├── frontend/                    # React.js frontend
 │   ├── public/                  # Public assets
 │   ├── src/                     # Source code
 │   │   ├── components/          # Reusable UI components
-│   │   ├── pages/               # App pages
+│   │   ├── pages/               # Application pages
 │   │   ├── context/             # React Context for state management
 │   │   ├── hooks/               # Custom hooks
-│   │   ├── App.jsx              # Main React App
+│   │   ├── utils/               # Helper functions
+│   │   ├── App.jsx              # Main App component
 │   │   └── index.jsx            # Entry point
 │   └── package.json             # Frontend dependencies
 │
-├── backend/                     # Node.js / Express backend
+├── backend/                     # Node.js/Express backend
 │   ├── controllers/             # API controllers
 │   ├── models/                  # Database models
 │   ├── routes/                  # Express routes
-│   ├── middleware/              # Authentication / error handling
-│   ├── config/                  # DB & environment config
+│   ├── middleware/              # Authentication & error handling
+│   ├── config/                  # DB & environment configs
 │   └── server.js                # Backend entry point
 │
-├── database/                    # Database scripts / seeders
-│
+├── database/                    # DB scripts / seeders
+├── scripts/                     # Automation scripts
 ├── .gitignore                   # Git ignore file
 ├── LICENSE                      # MIT License
 └── README.md                    # Project documentation
@@ -59,37 +86,62 @@ BellyBuzzFood/
 
 ---
 
-## 🤝 Contributions
+## 📦 Getting Started
 
-This project is **built collaboratively**. To contribute:
+### Prerequisites
 
-1. **Clone the repository** (if added as collaborator):  
-   ```bash
-   git clone <repo-url>
-   ```
-2. **Create a new branch** for your feature/fix:  
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make changes and commit**:  
-   ```bash
-   git add .
-   git commit -m "Add descriptive commit message"
-   ```
-4. **Push your branch**:  
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. **Open a Pull Request** for review and merge.
+- Node.js & npm  
+- MongoDB (local or Atlas)  
+- Postman (optional, for API testing)  
 
-> ⚠️ Make sure your GitHub email matches your commits to appear in the contributors list.
+### Installation
+
+1. **Clone the repository**  
+```bash
+git clone <repo-url>
+```
+
+2. **Backend Setup**  
+```bash
+cd BellyBuzzFood/backend
+npm install
+npm start
+```
+
+3. **Frontend Setup**  
+```bash
+cd ../frontend
+npm install
+npm start
+```
+
+4. **Access Local App:**  
+- Frontend: `http://localhost:3000`  
+- Backend: `http://localhost:5000`  
 
 ---
 
-## 🌟 Contributors
+## 🛠️ API Endpoints
+
+| Endpoint           | Method | Description                       |
+|-------------------|--------|----------------------------------|
+| /restaurants       | GET    | List all restaurants             |
+| /menus/:id         | GET    | Get menu by restaurant           |
+| /cart              | POST   | Add item to cart                 |
+| /cart              | GET    | Get cart items                   |
+| /orders            | POST   | Place an order                   |
+| /orders/:userId    | GET    | Get order history for a user     |
+| /auth/login        | POST   | Login / JWT                      |
+| /auth/register     | POST   | User registration                |
+| /admin/restaurants | POST   | Admin: Add new restaurant        |
+| /admin/menus       | POST   | Admin: Add menu items            |
+
+---
+
+## 👤 Contributors
 
 - Mukesh Lilawat – Owner / Lead Developer  
-- [Gaurav Kumawat] – Role / Contributions  
+- [Gaurav Kumawat] – Role / Full-Stack Developer    
 
 > GitHub automatically tracks contributions from commits.
 
@@ -97,43 +149,37 @@ This project is **built collaboratively**. To contribute:
 
 ## 📝 License
 
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-```text
-MIT License
-
-Copyright (c) 2025 Mukesh Lilawat
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📌 Notes
+## 🎨 Screenshots
 
-- Use consistent coding standards and folder structure for maintainability.  
-- Track issues, bugs, and features using GitHub Issues.  
-- Always pull the latest changes before starting your work:  
-  ```bash
-  git pull origin main
-  ```  
+> _Add screenshots or GIFs of key UI features here._
 
 ---
 
-Made with ❤️ by the **BellyBuzzFood Team**
+## 🌐 Live Demo
+
+> _Add link to live deployed version if available._
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you would like to change.  
+Please follow the [Contributor Guidelines](CONTRIBUTING.md) if you add one.
+
+---
+
+## 📚 Resources
+
+- [ReactJS Docs](https://reactjs.org/)  
+- [Node.js Docs](https://nodejs.org/en/docs/)  
+- [MongoDB Docs](https://www.mongodb.com/docs/)  
+- [JWT Introduction](https://jwt.io/introduction/)  
+- [TailwindCSS Docs](https://tailwindcss.com/docs)  
+
+---
+
+> _Star ⭐ this repo if you find it useful!_
