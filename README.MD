@@ -6,7 +6,6 @@
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-blue)
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 ---
 
