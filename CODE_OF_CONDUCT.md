@@ -24,7 +24,7 @@ Examples of unacceptable behavior by participants include:
 Project maintainers are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
 ## Reporting Guidelines
-If you are subject to or witness unacceptable behavior, please report it by contacting the project maintainers at **<your-email@example.com>**. All complaints will be reviewed and investigated and will remain confidential.
+If you are subject to or witness unacceptable behavior, please report it by contacting the project maintainers at . All complaints will be reviewed and investigated and will remain confidential.
 
 ## Enforcement
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders, who will determine the consequences, up to and including temporary ban or permanent removal from the project.
