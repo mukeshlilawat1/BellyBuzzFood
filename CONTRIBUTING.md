@@ -11,7 +11,7 @@ Thank you for your interest in contributing to **BellyBuzzFood**! We welcome con
 
 ### 2. Clone your Fork
 ```bash
-git clone https://github.com/<your-username>/BellyBuzzFood.git
+
 cd BellyBuzzFood
 ```
 
