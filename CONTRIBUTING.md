@@ -11,7 +11,6 @@ Thank you for your interest in contributing to **BellyBuzzFood**! We welcome con
 
 ### 2. Clone your Fork
 ```bash
-git clone https://github.com/<your-username>/BellyBuzzFood.git
 cd BellyBuzzFood
 ```
 
@@ -19,7 +18,7 @@ cd BellyBuzzFood
 ```bash
 git checkout -b feature/your-feature-name
 ```
-> Use a descriptive branch name that indicates the feature or fix.
+>
 
 ### 4. Make Changes
 - Write clean, maintainable, and well-documented code.
