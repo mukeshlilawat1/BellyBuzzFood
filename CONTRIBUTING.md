@@ -9,16 +9,10 @@ Thank you for your interest in contributing to **BellyBuzzFood**! We welcome con
 ### 1. Fork the Repository
 - Click the **Fork** button at the top-right corner of the repo.
 
-### 2. Clone your Fork
-```bash
-cd BellyBuzzFood
-```
-
 ### 3. Create a Branch
 ```bash
 git checkout -b feature/your-feature-name
 ```
->
 
 ### 4. Make Changes
 - Write clean, maintainable, and well-documented code.

@@ -1,12 +1,10 @@
 # 🍔 BellyBuzzFood App
 
-![Stars](https://img.shields.io/github/stars/<your-username>/BellyBuzzFood.svg?style=social)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![React](https://img.shields.io/badge/Frontend-ReactJS-blue)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-blue)
 ![JWT](https://img.shields.io/badge/Auth-JWT-orange)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 ---
 
