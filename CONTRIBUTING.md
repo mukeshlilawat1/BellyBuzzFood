@@ -19,7 +19,6 @@ cd BellyBuzzFood
 ```bash
 git checkout -b feature/your-feature-name
 ```
-> Use a descriptive branch name that indicates the feature or fix.
 
 ### 4. Make Changes
 - Write clean, maintainable, and well-documented code.
