@@ -40,7 +40,7 @@ This project demonstrates real-world skills in:
 
 ---
 
-## 🧩Tech Stack
+## 🧩 Tech Stack
 
 | Frontend   | Backend        | Database | Auth  | Tools / Libraries       |
 |------------|---------------|----------|-------|------------------------|
